@@ -1,0 +1,40 @@
+.one__user__messages {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--gray-8);
+  padding: 2rem;
+  padding-top: 10rem;
+  overflow-y: scroll;
+  animation: fromLeftToRight 0.3s ease-in-out;
+}
+
+.one__user__messages::-webkit-scrollbar {
+  display: block;
+  left: 0;
+  width: 0.6rem;
+}
+
+.one__user__messages::-webkit-scrollbar-track {
+  background: rgba(175, 175, 175, 0.507);
+}
+
+.one__user__messages::-webkit-scrollbar-thumb {
+  background-color: var(--gray-4);
+  border-radius: 2rem;
+  border: 0.2rem transparent rgba(175, 175, 175, 0.288);
+}
+
+@keyframes fromLeftToRight {
+  0% {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

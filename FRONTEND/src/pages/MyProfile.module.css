@@ -1,0 +1,20 @@
+.my__profile {
+  width: 100rem;
+  min-height: 80vh;
+  margin: 10rem auto 5rem auto;
+  background-color: var(--white);
+  box-shadow: 0.15rem 0.5rem 0.5rem 0.05rem var(--shadow);
+  padding: 1rem 2rem;
+  border: 0.2rem solid var(--light-2);
+  border-top: none;
+  /* animation: easeIn 0.5s ease; */
+}
+
+@keyframes easeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

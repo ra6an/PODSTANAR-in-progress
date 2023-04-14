@@ -1,0 +1,24 @@
+.users__messages {
+  width: 30%;
+  height: 100%;
+  /* border: 0.2rem solid var(--color-blue-light); */
+  border-radius: 1rem;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.users__messages-header {
+  height: 5rem;
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 100%;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  text-align: center;
+  font-weight: 400;
+  background-color: var(--color-blue-light);
+  color: var(--white);
+  letter-spacing: 0.1rem;
+}

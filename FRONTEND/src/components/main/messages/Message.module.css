@@ -1,0 +1,67 @@
+.my-message {
+  /* padding: 1rem 2rem; */
+  min-width: 15rem;
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  /* justify-content: center; */
+  border-radius: 1.6rem;
+  border: 0.2rem solid var(--gray-7);
+  background-color: var(--white);
+  color: var(--gray-2);
+  align-self: end;
+  animation: easeIn 0.3s ease;
+  z-index: 50;
+}
+
+.users-message {
+  /* padding: 1rem 2rem; */
+  max-width: 60%;
+  min-width: 15rem;
+  display: flex;
+  border-radius: 1.6rem;
+  flex-direction: column;
+  border: 0.2rem solid var(--color-blue-light);
+  background-color: var(--white);
+  color: var(--gray-2);
+  align-self: start;
+  animation: easeIn 0.3s ease;
+  z-index: 50;
+}
+
+.separator {
+  width: 100%;
+  height: 0.1rem;
+  background-color: var(--white);
+}
+
+.message-text {
+  font-size: 1.6rem;
+  padding: 1rem 1.4rem;
+}
+
+.message-footer {
+  /* color: var(--white); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  padding: 0.5rem 1.6rem;
+}
+
+.message-seen-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+@keyframes easeIn {
+  0% {
+    /* opacity: 0; */
+    transform: scale(0.1);
+  }
+  100% {
+    transform: scale(1);
+    /* opacity: 1; */
+  }
+}

@@ -1,0 +1,15 @@
+.placeholder__conv {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  background-color: var(--gray-7);
+}
+
+.placeholder-icon {
+  height: 10rem;
+  width: 10rem;
+  color: var(--gray-5);
+}

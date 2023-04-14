@@ -1,0 +1,17 @@
+.messages {
+  width: 130rem;
+  height: calc(100vh - 15rem);
+  margin: 10rem auto 0rem auto;
+  background-color: var(--white);
+  /* box-shadow: 0.15rem 0.15rem 0.5rem 0.05rem var(--shadow); */
+  animation: easeIn 0.5s ease;
+}
+
+@keyframes easeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,25 @@
+.notifications__header__booking__response {
+  height: 100%;
+  width: 11rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 1rem; */
+  /* background-color: var(--color-yellow); */
+}
+
+.notifications__header__booking__response-mark {
+  width: 0.5rem;
+  height: 100%;
+  background-color: var(--color-yellow);
+}
+
+.notifications__header-typeof {
+  font-size: 1.6rem;
+}
+
+.notifications__header-separator {
+  width: 0.2rem;
+  height: 3rem;
+  background-color: var(--light-2);
+}

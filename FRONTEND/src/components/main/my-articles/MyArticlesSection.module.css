@@ -1,0 +1,32 @@
+.my__articles-header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  background-color: var(--light-3);
+  box-shadow: 0.15rem 0.15rem 0.5rem 0.05rem var(--shadow);
+}
+
+.my__articles-title {
+  color: var(--gray-3);
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+}
+
+.my__articles-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-right: 0.5rem;
+  color: var(--white);
+  background-color: var(--color-blue);
+  transition: all 0.3s;
+}
+
+.my__articles-icon:hover {
+  box-shadow: inset 0.15rem 0.15rem 0.5rem 0.05rem var(--gray-1);
+}

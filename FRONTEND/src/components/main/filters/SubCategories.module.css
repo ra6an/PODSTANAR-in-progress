@@ -1,0 +1,118 @@
+.sub__category-form {
+  padding: 2rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  column-gap: 2rem;
+  row-gap: 1rem;
+  /* border-bottom: 0.1rem solid var(--light-2); */
+  justify-items: center;
+  /* background-color: var(--white); */
+  /* box-shadow: 0.15rem 0.15rem 0.5rem 0.05rem var(--shadow); */
+  z-index: 2;
+  animation: dropbox 0.5s ease;
+}
+
+/* .select-category-form div {
+  margin: 0;
+  padding: 0;
+} */
+
+.sub__category-form label {
+  width: 99%;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  /* padding-bottom: 1rem; */
+  color: var(--gray-3);
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  /* border-bottom: 0.1rem solid var(--gray-6); */
+}
+
+.sub__category-form p {
+  /* padding: 0 0 1rem 0; */
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--gray-3);
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  /* border-bottom: 0.1rem solid var(--shadow); */
+}
+
+.sub__category-form input {
+  border: 0.1rem solid var(--gray-5);
+  height: 4rem;
+  width: 100%;
+  border-radius: 5rem;
+  padding: 0 0.2rem;
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--gray-3);
+}
+
+.sub__category-form input:focus {
+  outline: none;
+  border: 0.1rem solid var(--color-blue-shadow);
+}
+
+.sub__category-form span {
+  padding: 0;
+  margin: 0;
+  text-transform: none;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--gray-5);
+  letter-spacing: 0.2rem;
+}
+
+.sub__category-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0.15rem 0.15rem 0.3rem 0.02rem var(--gray-7);
+  border: 0.1rem solid var(--gray-7);
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+}
+
+.sub__category-section label {
+  /* font-weight: 400; */
+}
+
+.sub__category-section select {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.6rem;
+  border-color: var(--gray-5);
+  border-radius: 5rem;
+  margin-top: 1rem;
+}
+
+.sub__category-section select:focus {
+  outline: none;
+  border: 0.1rem solid var(--color-blue-shadow);
+}
+
+.square {
+  font-size: 1rem !important;
+
+  /* transform: translateY(50%); */
+}
+
+@keyframes dropbox {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

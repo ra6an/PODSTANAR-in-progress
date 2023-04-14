@@ -1,0 +1,24 @@
+.select-category {
+  border: 0.1rem solid var(--gray-7);
+  height: 100%;
+  color: var(--gray-4);
+  /* border-radius: 0.3rem; */
+  padding: 0 1rem;
+}
+
+.select-category label {
+  font-weight: 600;
+}
+
+.select-category option {
+  padding: 0.5rem 1rem;
+  background-color: var(--white);
+  letter-spacing: 0.1rem;
+}
+
+.separator {
+  margin-top: 0.6rem;
+  height: 0.3rem;
+  width: 90%;
+  background-color: var(--gray-6);
+}

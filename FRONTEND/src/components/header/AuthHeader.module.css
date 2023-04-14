@@ -1,0 +1,49 @@
+.auth__header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.auth__header-prijava {
+  font-family: "PT Sans", sans-serif;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background-color: var(--logo-2);
+  border: 0.2rem solid var(--logo-2);
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+
+.auth__header-prijava:hover {
+  color: var(--white);
+  border: 0.2rem solid var(--logo-1);
+  /* border: 0.2rem solid var(--color-blue-light); */
+  background-color: var(--logo-1);
+}
+
+.auth__header-registracija {
+  font-family: "PT Sans", sans-serif;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  color: var(--white);
+  border: 0.2rem solid var(--color-blue);
+  background-color: var(--color-blue);
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+
+.auth__header-registracija:hover {
+  color: var(--white);
+  background-color: var(--color-blue-light);
+  border-color: var(--color-blue-light);
+}

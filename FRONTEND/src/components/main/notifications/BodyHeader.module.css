@@ -1,0 +1,38 @@
+.body__booking-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 4rem;
+}
+
+.body__booking-user {
+  font-weight: 700;
+  padding-right: 1rem;
+  color: var(--gray-3);
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: var(--light-1);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.body__booking-user:hover {
+  background-color: var(--light-3);
+  color: var(--gray-2);
+}
+
+.body__booking-image {
+  height: 4rem;
+  width: 4rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.5rem;
+}

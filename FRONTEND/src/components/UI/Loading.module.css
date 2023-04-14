@@ -1,0 +1,139 @@
+.container {
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 10rem;
+  width: 7rem;
+  display: flex;
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.logoone {
+  z-index: 5;
+  position: absolute;
+  width: 7rem;
+  height: 10.4rem;
+  background-color: var(--logo-1t);
+  clip-path: polygon(50% 0%, 0% 33%, 0% 100%, 100% 100%, 100% 33%);
+  bottom: 0;
+  transform: translateY(1.4rem);
+  animation: logoone 3s linear infinite alternate;
+}
+
+.logotwo {
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+  height: 8.4rem;
+  background-color: var(--logo-2t);
+  clip-path: polygon(50% 0%, 0% 40%, 0% 100%, 100% 100%, 100% 40%);
+  bottom: 0;
+  transform: translateY(1.4rem);
+  animation: logotwo 3s linear infinite alternate;
+}
+
+.logothree {
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+  height: 6.4rem;
+  background-color: var(--logo-3t);
+  clip-path: polygon(50% 0%, 0% 50%, 0% 100%, 100% 100%, 100% 50%);
+  bottom: 0;
+  transform: translateY(1.4rem);
+  animation: logothree 3s linear infinite alternate;
+}
+
+.logofour {
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+  height: 4.4rem;
+  background-color: var(--logo-4t);
+  clip-path: polygon(50% 0%, 0% 70%, 0% 100%, 100% 100%, 100% 70%);
+  bottom: 0;
+  transform: translateY(1.4rem);
+  animation: logofour 3s linear infinite alternate;
+}
+
+@keyframes logoone {
+  0% {
+    margin-bottom: 0rem;
+  }
+  10% {
+    margin-bottom: 1rem;
+  }
+  90% {
+    margin-bottom: 1rem;
+  }
+  100% {
+    margin-bottom: 0rem;
+  }
+}
+
+@keyframes logotwo {
+  10% {
+    margin-bottom: 0rem;
+  }
+  20% {
+    margin-bottom: 1rem;
+  }
+  80% {
+    margin-bottom: 1rem;
+  }
+  90% {
+    margin-bottom: 0rem;
+  }
+  100% {
+    margin-bottom: 0rem;
+  }
+}
+
+@keyframes logothree {
+  0% {
+    margin-bottom: 0rem;
+  }
+  20% {
+    margin-bottom: 0rem;
+  }
+  30% {
+    margin-bottom: 1rem;
+  }
+  70% {
+    margin-bottom: 1rem;
+  }
+  80% {
+    margin-bottom: 0rem;
+  }
+  100% {
+    margin-bottom: 0rem;
+  }
+}
+
+@keyframes logofour {
+  0% {
+    margin-bottom: 0rem;
+  }
+  30% {
+    margin-bottom: 0rem;
+  }
+  40% {
+    margin-bottom: 1rem;
+  }
+  60% {
+    margin-bottom: 1rem;
+  }
+  70% {
+    margin-bottom: 0rem;
+  }
+  100% {
+    margin-bottom: 0rem;
+  }
+}

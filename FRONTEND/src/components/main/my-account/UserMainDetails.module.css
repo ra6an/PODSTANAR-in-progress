@@ -1,0 +1,165 @@
+.my__account-basic-info {
+  width: 100%;
+  min-height: 30rem;
+  margin-bottom: 2rem;
+  /* background-color: var(--gray-5); */
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1.5fr;
+  gap: 1rem;
+}
+
+.my__account-image {
+  height: 30rem;
+  width: 30rem;
+  grid-row: 1 / span 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  border: 0.2rem solid var(--light-2);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.image-user {
+  /* width: 100%; */
+  height: 100%;
+}
+
+.my__account-username {
+  padding: 0 1rem;
+  height: 5rem;
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  color: var(--gray-3);
+  background-color: var(--light-3);
+  border-radius: 0.5rem;
+  /* align-self: center; */
+  box-shadow: inset 0.15rem 0.15rem 0.5rem 0.05rem var(--shadow);
+}
+
+.my__account-email {
+  padding: 0 1rem;
+  height: 5rem;
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  color: var(--gray-3);
+  background-color: var(--light-3);
+  border-radius: 0.5rem;
+  /* align-self: center; */
+  box-shadow: inset 0.15rem 0.15rem 0.5rem 0.05rem var(--shadow);
+}
+
+.my__account-city {
+  padding: 0 1rem;
+  height: 5rem;
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  color: var(--gray-3);
+  background-color: var(--light-3);
+  border-radius: 0.5rem;
+  /* align-self: center; */
+  box-shadow: inset 0.15rem 0.15rem 0.5rem 0.05rem var(--shadow);
+}
+
+.my__account-phone {
+  padding: 0 1rem;
+  height: 5rem;
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  color: var(--gray-3);
+  background-color: var(--light-3);
+  border-radius: 0.5rem;
+  /* align-self: end; */
+  /* align-self: center; */
+  box-shadow: inset 0.15rem 0.15rem 0.5rem 0.05rem var(--shadow);
+}
+
+.my__account-edit-icon {
+  height: 3rem;
+  width: 3rem;
+  background-color: var(--white);
+  color: var(--gray-5);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.15rem 0.15rem 0.5rem 0.05rem var(--shadow);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.my__account-edit-icon:hover {
+  color: var(--gray-3);
+}
+
+.my__account-change-img {
+  height: 5rem;
+  width: 30rem;
+  position: relative;
+}
+
+.my__account-change-img label {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--light-1);
+  color: var(--gray-3);
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  border: 0.2rem solid var(--light-2);
+  transition: all 0.3s;
+}
+
+.my__account-change-img label:hover {
+  background-color: var(--light-2);
+  box-shadow: 0.15rem 0.15rem 0.5rem 0.05rem var(--gray-5);
+}
+
+.my__account-change-img input {
+  display: none;
+}
+
+.my__account-gallery-icon {
+  /* color: var(--white); */
+  height: 2rem;
+  width: 2rem;
+}
+
+.my__account-btn {
+  width: 100%;
+  grid-column: span 2;
+  background-color: var(--color-blue);
+  color: var(--white);
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.my__account-btn:hover {
+  box-shadow: 0.15rem 0.15rem 0.5rem 0.05rem var(--gray-4);
+}

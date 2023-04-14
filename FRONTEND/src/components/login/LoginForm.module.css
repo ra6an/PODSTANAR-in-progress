@@ -1,0 +1,33 @@
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+  width: 100%;
+  min-height: 100%;
+  background-color: var(--white);
+  padding: 3.6rem 3rem;
+  border: 0.2rem solid var(--logo-1);
+  border-top: none;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.auth__btn {
+  background-color: var(--color-blue-light);
+  border: 0.2rem solid var(--color-blue-light);
+  color: var(--white);
+  padding: 1rem 3.4rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  /* margin-top: 3rem; */
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.auth__btn:hover {
+  background-color: var(--color-blue);
+  border: 0.2rem solid var(--color-blue);
+}

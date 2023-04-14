@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  /* font-family: "IBM Plex Sans", sans-serif; */
+  /* font-family: "Koulen", cursive; */
+  /* font-family: "PT Sans", sans-serif; */
+  font-family: "Titillium Web", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--white);
+  /* background-color: var(--light-3); */
+  overflow-x: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: block;
+  left: 0;
+  width: 0.6rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(175, 175, 175, 0.507);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--gray-4);
+  border-radius: 2rem;
+  border: 0.2rem transparent rgba(175, 175, 175, 0.288);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  /* MAIN COLORS */
+  --color-blue-dark: #0d3b66;
+  --color-blue: #4d82b4;
+  /* --color-blue: #245583; */
+  --color-blue-light: #48a0cf;
+  --color-blue-shadow: #84bcda;
+  --color-blue-ultralight: #a4cbe0;
+  --color-biege: #faf0ca;
+  --color-yellow: #f4d35e;
+  --color-orange: #ee964b;
+  --color-orange-dark: #f95738;
+
+  /* LIGHT COLORS */
+  --light-1: #edede9;
+  --light-2: #d6ccc2;
+  /* --light-3: #fff; */
+  /* --light-3: #f5eee6; */
+
+  --light-3: #f3ede7da;
+  --light-4: #e3d5ca;
+  --light-5: #d5bdaf;
+
+  /* GRAY */
+  --gray-1: #212529;
+  --gray-2: #343a40;
+  --gray-3: #495057;
+  --gray-4: #6c757d;
+  --gray-5: #adb5bd;
+  --gray-6: #ced4da;
+  --gray-7: #dde2e7;
+  --gray-8: #eff2f5a1;
+  --gray-9: #eff2f5;
+
+  /* LOGO */
+  --logo-1: #f6951e;
+  --logo-2: #f15a23;
+  --logo-3: #d71a20;
+  --logo-4: #b50f1b;
+
+  --logo-1t: #f6951e63;
+  --logo-2t: #f15a2363;
+  --logo-3t: #d71a2063;
+  --logo-4t: #b50f1b63;
+
+  /* HELPERS */
+  --white: #fff;
+  --shadow: #d6ccc2;
+  --valid: rgb(64, 255, 58);
+  --invalid: rgb(255, 45, 45);
+  --pending: rgb(228, 188, 78);
+  --approved: rgb(107, 216, 107);
+  --rejected: rgb(219, 69, 69);
+  --accept: rgb(71, 179, 89);
+  --accept-hover: rgb(62, 160, 78);
+  --reject: #d12a2f;
+  --reject-hover: #be272c;
+
+  /* KATEGORIJE */
+  --stanovi: rgba(219, 106, 0, 0.5);
+  --kuce: rgba(0, 71, 177, 0.5);
+  --apartmani: rgba(184, 33, 204, 0.5);
+  --poslovni: rgba(192, 34, 34, 0.5);
+  --vikendice: rgba(43, 167, 59, 0.5);
+  --sobe: rgba(6, 154, 180, 0.5);
+
+  /* PREMIUM ARTIKLI */
+  --location: rgb(209, 144, 84);
+  --days: rgb(43, 164, 180);
+  --price: rgb(71, 179, 89);
+  --premium: rgba(231, 21, 21, 0.61);
+
+  /* TRUE I FALSE */
+  --true: rgb(71, 179, 89);
+  --false: rgb(201, 25, 25);
+}
+
+.map-container {
+  width: 100%;
+  height: 50rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.map-container-geocoder {
+  width: 100%;
+  height: 30rem;
+  border-radius: 1rem;
+}
+
+.marker {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: var(--color-blue-dark);
+  cursor: pointer;
+}
+
+.marker:before,
+.marker:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid var(--color-blue-light);
+  border-radius: 50%;
+}
+
+.marker:before {
+  animation: ripple 2s linear infinite;
+}
+
+.marker:after {
+  animation: ripple 2s linear 1s infinite;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}

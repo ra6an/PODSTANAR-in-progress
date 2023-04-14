@@ -1,0 +1,215 @@
+/*  */
+
+.create__article__form {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.create__article__form-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.create__article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create__article-label {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 700;
+  background-color: var(--light-1);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  font-size: 1.8rem;
+  color: var(--gray-3);
+}
+
+.create__article-label:first-letter {
+  text-transform: uppercase;
+}
+
+.create__article-input {
+  width: 100%;
+  padding: 0 1rem;
+  height: 5rem;
+  border: 0.2rem solid var(--light-1);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  font-size: 1.6rem;
+  color: var(--gray-3);
+  transition: all 0.3s;
+}
+
+.create__article-input:focus {
+  outline: none;
+  border-top: 0.2rem solid var(--logo-1);
+}
+
+.create__article__form-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create__article__form-textarea {
+  width: 100%;
+  resize: none;
+  border: 0.2rem solid var(--light-1);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  min-height: 30rem;
+  font-family: "PT Sans", sans-serif;
+  letter-spacing: 0.05rem;
+  font-size: 1.6rem;
+  color: var(--gray-3);
+  padding: 1rem;
+  transition: all 0.3s;
+}
+
+.create__article__form-textarea:focus {
+  outline: none;
+  border-top: 0.2rem solid var(--logo-1);
+}
+
+.create__article-location {
+  margin-top: 1rem;
+  /* padding: 1rem; */
+  border: 0.2rem solid var(--color-blue);
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.create__article-location-title {
+  align-items: center;
+  background-color: var(--color-blue);
+  grid-column: 1 / span 2;
+  height: 5rem;
+  color: var(--white);
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.create__article__form-city {
+  margin: 0 0 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.select-city {
+  border: 0.2rem solid var(--light-1);
+  padding: 0 1rem;
+  font-size: 1.6rem;
+  color: var(--gray-3);
+  height: 5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.select-city:focus {
+  outline: none;
+  border-top: 0.2rem solid var(--logo-1);
+}
+
+.padding-rg {
+  padding: 0 1rem 0 0;
+}
+
+.margin-lt {
+  margin-left: 1rem;
+}
+
+.margin-tp-rg {
+  margin: 1rem 0 0 0;
+  padding: 0 1rem 0 0;
+}
+
+.create__article__form-price {
+  padding: 0 0 1rem 0;
+  display: grid;
+  border: 0.2rem solid var(--true);
+  border-radius: 0.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+}
+
+.create__article-days {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--gray-3);
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+  background-color: var(--light-1);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.create__article-days:hover {
+  background-color: var(--light-4);
+}
+
+.allign-text {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.create__article__form-price-title {
+  grid-column: 1 / span 4;
+  background-color: var(--true);
+  color: var(--white);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.separator {
+  width: 100%;
+  margin: 1rem 0;
+  border-top: 0.2rem dotted var(--light-2);
+}
+
+.create__article-btn {
+  margin: 2rem 0 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create__article-btn-create {
+  background-color: var(--color-blue);
+  border: none;
+  color: var(--white);
+  width: 20rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s;
+}
+
+.create__article-btn-create:hover {
+  box-shadow: 0.15rem 0.15rem 0.5rem 0.05rem var(--gray-4);
+}

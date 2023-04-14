@@ -1,0 +1,48 @@
+.body__booking-btns {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.body__booking-btn {
+  width: 50%;
+  height: 5rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.accept {
+  border-top-right-radius: 0rem;
+  border-top-left-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  background-color: var(--accept);
+  transition: all 0.3s;
+}
+
+.accept:hover {
+  box-shadow: 0.15rem 0.15rem 0.5rem 0.05rem var(--gray-6);
+  background-color: var(--accept-hover);
+}
+
+.reject {
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+  background-color: var(--reject);
+  transition: all 0.3s;
+}
+
+.reject:hover {
+  box-shadow: 0.15rem 0.15rem 0.5rem 0.05rem var(--gray-5);
+  background-color: var(--reject-hover);
+}
+
+.body__booking-icon {
+  width: 2rem;
+  height: 2rem;
+  color: var(--color-blue);
+}

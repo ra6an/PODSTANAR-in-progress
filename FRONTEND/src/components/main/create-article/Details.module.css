@@ -1,0 +1,29 @@
+.create__article__form-details {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.create__article__form-details-title {
+  grid-column: 1 / span 5;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  background-color: var(--light-2);
+  color: var(--gray-3);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create__article-checkbox {
+  background-color: var(--light-1);
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: var(--gray-3);
+  display: flex;
+  align-items: center;
+  border: 0.1rem solid var(--white);
+  justify-content: space-between;
+}

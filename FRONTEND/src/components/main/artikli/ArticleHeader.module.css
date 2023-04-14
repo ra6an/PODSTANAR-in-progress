@@ -1,0 +1,39 @@
+.article__container-img-container {
+  position: relative;
+  height: 65%;
+  width: 100%;
+  /* border: 0.2rem solid var(--light-2); */
+  /* border-top-left-radius: 0.5rem; */
+  /* border-bottom-left-radius: 0.5rem; */
+  overflow: hidden;
+}
+
+.premium::after {
+  content: "PREMIUM OGLAS";
+  background-color: var(--premium);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: 0.2rem;
+}
+
+/* .article__container-img-container::after {
+  
+} */
+
+.article__container-img {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+  transition: all 0.3s;
+}

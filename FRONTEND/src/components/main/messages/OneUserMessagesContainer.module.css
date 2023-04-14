@@ -1,0 +1,22 @@
+.one__user__messages__container {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  gap: 0.4rem;
+  flex-direction: column;
+  border-radius: 1rem;
+  align-items: center;
+  overflow: hidden;
+}
+
+.one__user__messages__container-user {
+  height: 6rem;
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+  background-color: var(--gray-6);
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--gray-2);
+  letter-spacing: 0.1rem;
+}

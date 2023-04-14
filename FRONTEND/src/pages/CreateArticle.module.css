@@ -1,0 +1,36 @@
+.create__article {
+  margin: 10rem auto 5rem auto;
+  width: 100rem;
+  min-height: 85vh;
+  background-color: var(--white);
+  box-shadow: 0.15rem 0.5rem 0.5rem 0.05rem var(--shadow);
+  border: 0.2rem solid var(--light-2);
+  border-top: none;
+  /* animation: easeIn 0.3s ease; */
+}
+
+.create__article-title {
+  height: 5rem;
+  font-size: 2rem;
+  color: var(--gray-2);
+  background-color: var(--light-2);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.1rem;
+}
+
+.create__article-cat-container {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+@keyframes easeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

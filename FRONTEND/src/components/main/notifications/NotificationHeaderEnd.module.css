@@ -1,0 +1,41 @@
+.notification__header-end {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
+  /* background-color: var(--color-blue-light); */
+}
+
+.notifications__header-date {
+  justify-self: end;
+  font-size: 1.2rem;
+}
+
+.notifications__header-btn {
+  width: 4rem;
+  height: 4rem;
+  margin: 0.5rem 0.5rem 0.5rem 0rem;
+  border: 0.2rem solid var(--color-blue);
+  background-color: var(--color-blue);
+  border-radius: 10rem;
+  color: var(--white);
+  transition: all 0.3s;
+}
+
+.notifications__header-btn:hover {
+  box-shadow: 0.15rem 0.15rem 0.5rem 0.05rem var(--gray-5);
+  background-color: var(--color-blue-light);
+  border-color: var(--color-blue-light);
+}
+
+.notifications__header-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.notifications__header-separator {
+  width: 0.2rem;
+  height: 3rem;
+  background-color: var(--light-2);
+}

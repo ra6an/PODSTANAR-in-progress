@@ -1,0 +1,22 @@
+.articles-container {
+  min-height: calc(100vh - 40rem);
+  width: 100%;
+  margin: 3rem 0 0.4rem 0;
+  padding: 1rem 0rem 2rem 0rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: var(#777);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+.articles-paginnator {
+  height: 8rem;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+}

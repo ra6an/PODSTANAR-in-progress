@@ -1,0 +1,38 @@
+.users__list {
+  width: 100%;
+  height: calc(100% -5rem);
+  display: flex;
+  margin: 1rem 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: var(--white);
+  overflow-y: scroll;
+}
+
+.users__list::-webkit-scrollbar {
+  display: block;
+  left: 0;
+  width: 0.6rem;
+}
+
+.users__list::-webkit-scrollbar-track {
+  background: rgba(175, 175, 175, 0.507);
+}
+
+.users__list::-webkit-scrollbar-thumb {
+  background-color: var(--gray-4);
+  border-radius: 2rem;
+  border: 0.2rem transparent rgba(175, 175, 175, 0.288);
+}
+
+@keyframes easeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

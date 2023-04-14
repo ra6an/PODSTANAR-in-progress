@@ -1,0 +1,58 @@
+.short__inputs-container {
+  /* width: 100%; */
+  /* border-bottom: 0.1rem solid var(--light-2); */
+  display: flex;
+  align-items: center;
+  gap: 0rem;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.short__inputs-container label {
+  height: 3rem;
+  padding: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--gray-3);
+}
+
+.short__inputs-container span {
+  font-size: 2rem;
+  color: var(--gray-5);
+}
+
+.short__inputs-container div {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  /* background-color: var(--white); */
+  /* gap: 1rem; */
+  /* border: 0.1rem solid var(--light-5); */
+  border: 0.1rem solid var(--gray-7);
+  /* border-top: 0.2rem solid var(--light-5); */
+  /* border-top: 0.2rem solid var(--gray-5); */
+}
+
+.short__inputs-container input {
+  /* width: 100%; */
+  /* border: 0.2rem solid var(--gray-5); */
+  border: none;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: var(--gray-7);
+  /* background-color: var(--gray-5); */
+  color: var(--gray-3);
+  /* color: var(--white); */
+  font-size: 1.4rem;
+  border-top: 0.2rem solid var(--gray-7);
+  /* border-top: 0.2rem solid var(--gray-5); */
+  padding: 0.4rem 1.5rem;
+  transition: all 0.3s;
+}
+
+.short__inputs-container input:focus {
+  outline: none;
+  border-top: 0.2rem solid var(--color-blue-light);
+}
